@@ -21,6 +21,8 @@ void Pantalla_Inicio() {
 }
 void Tablero()
 {
+    void Tablero()
+{
     int board[8][8] =
     {           -1, 0,-1, 0,-1, 0,-1, 0,
                 0,-1, 0,-1, 0,-1, 0,-1,
@@ -30,16 +32,63 @@ void Tablero()
                 0, 1, 0, 1, 0, 1, 0, 1,
                 1, 0, 1, 0, 1, 0, 1, 0,
                 0, 1, 0, 1, 0, 1, 0, 1 };
-    int y = board[8][8];
-    cout << y;
+   
     for (int w = 0; w < 8; w++)
     {
-        int x = board[w-1][8];
-        cout << x << "\n";
-        
-        
-        cout << "\n";
+        int x = board[0][w];
+
+        cout << x << " ";
     }
+    cout <<"\n";
+    for (int w = 0; w < 8; w++)
+    {
+        int x = board[1][w];
+
+        cout << x << " ";
+    }
+    cout << "\n";
+    for (int w = 0; w < 8; w++)
+    {
+        int x = board[2][w];
+
+        cout << x << " ";
+    }
+    cout << "\n";
+    for (int w = 0; w < 8; w++)
+    {
+        int x = board[3][w];
+
+        cout << x << " ";
+    }
+    cout << "\n";
+    for (int w = 0; w < 8; w++)
+    {
+        int x = board[4][w];
+
+        cout << x << " ";
+    }
+    cout << "\n";
+    for (int w = 0; w < 8; w++)
+    {
+        int x = board[5][w];
+
+        cout << x << " ";
+    }
+    cout << "\n";
+    for (int w = 0; w < 8; w++)
+    {
+        int x = board[6][w];
+
+        cout << x << " ";
+    }
+    cout << "\n";
+    for (int w = 0; w < 8; w++)
+    {
+        int x = board[7][w];
+
+        cout << x << " ";
+    }
+    cout << "\n";
     /*int filas = 0, columnas = 0, ubicacion = 0;
     for (int x = 0; x < 64; x++)
     {
