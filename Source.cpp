@@ -89,40 +89,12 @@ void Tablero()
         cout << x << " ";
     }
     cout << "\n";
-    /*int filas = 0, columnas = 0, ubicacion = 0;
-    for (int x = 0; x < 64; x++)
-    {
-        cout << board[x] << " ";
-        if ((x + 1) % 8 == 0)
-        {
-            cout << endl;
-        }
-    }*/
-
-}
-void Pantalla_Principal()
-{
-
-int contador_fichas1 = 12, contador_fichas2 = 12;
-char matriz[8][8];
-for (int i = 0; i < 8; i++)
-    {
-        for (int j = 0; j < 8 ;j++)
-        {
-            std::cout << matriz[8][j] << "\t" ;
-        }
-        cout << "\n";
     }
-
-
-}
-
 
 
 int main()
 {
     //Pantalla_Inicio();
-    Pantalla_Principal();
     Tablero();
     _getch();
 }
